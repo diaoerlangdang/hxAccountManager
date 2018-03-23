@@ -230,6 +230,7 @@ def sql_delete_user(userid):
 	#sql = "DELETE FROM modoshop.member WHERE id="+userid
 
 	success = False
+	data = None
 
 	try: 
 
